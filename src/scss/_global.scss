@@ -1,0 +1,66 @@
+.container {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  max-width: 2000px;
+  margin: 0px auto;
+
+  @media screen and (min-width: 1400px) {
+    padding-left: 11.5vw;
+    padding-right: 11.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.left-padding {
+  padding-left: 8vw;
+
+  @media screen and (min-width: 1400px) {
+    padding-left: 11.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 15px;
+  }
+}
+
+.right-padding {
+  padding-right: 8vw;
+
+  @media screen and (min-width: 1400px) {
+    padding-right: 11.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-right: 15px;
+  }
+}
+
+.left-margin {
+  margin-left: 8vw;
+
+  @media screen and (min-width: 1400px) {
+    margin-left: 11.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.right-margin {
+  margin-right: 8vw;
+
+  @media screen and (min-width: 1400px) {
+    margin-right: 11.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

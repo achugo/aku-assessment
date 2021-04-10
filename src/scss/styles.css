@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../fonts/Poppins-Bold.otf");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("../fonts/Poppins-Light.otf");
+}
+
+@font-face {
+  font-family: "Poppins Italic";
+  src: url("../fonts/Poppins-Italic.otf");
+}
+
+@font-face {
+  font-family: "Poppins regular";
+  src: url("../fonts/Poppins-Regular.otf");
+}
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("../fonts/Poppins-Medium.otf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../fonts/Poppins-SemiBold.otf");
+}
+
+.container {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  max-width: 2000px;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    padding-left: 11.5vw;
+    padding-right: 11.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.left-padding {
+  padding-left: 8vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .left-padding {
+    padding-left: 11.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-padding {
+    padding-left: 15px;
+  }
+}
+
+.right-padding {
+  padding-right: 8vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .right-padding {
+    padding-right: 11.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-padding {
+    padding-right: 15px;
+  }
+}
+
+.left-margin {
+  margin-left: 8vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .left-margin {
+    margin-left: 11.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.right-margin {
+  margin-right: 8vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .right-margin {
+    margin-right: 11.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-margin {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
