@@ -7,6 +7,12 @@ const Heading = styled.h1`
   color: ${({ color }) => color};
   font-family: ${AppFont.BOLD};
   line-height: 1.4;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
 `;
 
 const HeadingMedium = ({ color, children, style }) => {
